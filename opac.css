@@ -105,7 +105,7 @@ h1 {
 }
 
 h1#libraryname {
-  background: url(../images/logo-koha.png) 0 no-repeat;
+  background: url(https://github.com/barzay/koha-css/blob/master/100x44.png) 0 no-repeat;
   border: 0;
   float: left!important;
   margin: 0;
