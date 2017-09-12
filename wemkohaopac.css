@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color: rgba(132, 92, 92, 0.16);
+}
+
+.main{
+	border: 0px;
+	padding: 10px 20px;
+	box-shadow: none;
+}
+
+@media only screen and (max-width: 700px) 
+{
+	#logo 
+	{
+	    background: transparent url("../lib/bootstrap/img/glyphicons-halflings-white.png") no-repeat;
+	    background-position: center left;
+	    width: auto;
+	}
+	#logo a 
+	{
+		padding-top: 22px;
+	}
+}
+
+a:visited {
+    color: auto;
+}
+
+#encabezado
+{
+	text-align: center;
+}
+
+#encabezado img
+{
+	border: 0;
+	height: 180px;
+    width: 100%;
+}
+
+#logo 
+{
+	background-image: url("http://www.wemdes.com/wunderman-phantasia/imagenes/logo.png");
+	background-size: 140px 70px;
+    background-repeat: no-repeat;
+    margin-right: 2em;
+    background-position: center left;
+    width: 130px;
+}
+
+#members a 
+{
+	color: #000000;
+	font-weight: normal;
+}
+
+#members a:HOVER
+{
+	text-decoration: underline;
+}
+
+#members a.logout 
+{
+	color: #000000;
+}
+
+#members p
+{
+	color: #000000;
+	font-weight: normal;
+}
+
+#opacheader
+{
+    background: none;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+#searchform
+{
+	color: #ffffff;
+}
+
+/* .mastheadsearch  */
+/* { */
+/*     background: #F75E28; */
+/*     background: -moz-linear-gradient(top, #F9784B 38%, #F75E28 100%); */
+/*     background: -webkit-gradient(linear, left top, left bottom, color-stop(38%, #F9784B), color-stop(100%, #F75E28)); */
+/*     background: -webkit-linear-gradient(top, #F9784B 38%, #F75E28 100%); */
+/*     background: -o-linear-gradient(top, #F9784B 38%, #F75E28 100%); */
+/*     background: -ms-linear-gradient(top, #F9784B 38%, #F75E28 100%); */
+/*     background: linear-gradient(to bottom, #F9784B 38%, #F75E28 100%); */
+/* } */
+
+/* .mastheadsearch label */
+/* { */
+/* 	font-weight: normal; */
+/* } */
+
+.navbar .nav > li > a
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav>li>a
+{
+	color: #000000;
+	font-weight: normal;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav>li>a:HOVER
+{
+	color: #000000;
+}
+
+.navbar .divider-vertical
+{
+/*     background-color: #E8E8E8; */
+	border: 0;
+}
+
+.navbar-inverse .navbar-inner 
+{
+    background-color: #E8E8E8;
+    background-image: none;
+    border: 0;
+}
